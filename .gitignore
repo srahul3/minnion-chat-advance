@@ -1,0 +1,12 @@
+# Ignore Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+*.tfbackup
+.terraform/
+crash.log
+
+# Ignore PEM keys
+*.pem
+3-consul/.terraform.lock.hcl
